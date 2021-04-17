@@ -1,0 +1,33 @@
+.page-button {
+  border-radius: 50px;
+  padding: 10px 35px 9px;
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 22px;
+  display: block;
+  width: max-content;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.button-purple {
+  background-color: $primary;
+  box-shadow: 0px 0px 25px 3px rgba($primary, 0.15);
+  &:hover {
+    background-color: $pink;
+    box-shadow: 0px 0px 25px 3px rgba($pink, 0.25);
+  }
+}
+.button-pink {
+  background-color: $pink;
+  box-shadow: 0px 0px 25px 3px rgba($pink, 0.15);
+
+  &:hover {
+    background-color: $primary;
+    box-shadow: 0px 0px 25px 3px rgba($primary, 0.25);
+  }
+}
